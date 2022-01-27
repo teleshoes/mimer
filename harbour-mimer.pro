@@ -14,7 +14,7 @@ TARGET = harbour-mimer
 
 CONFIG += sailfishapp
 PKGCONFIG += mlite5 contentaction5
-INCLUDEPATH += /usr/include
+QMAKE_CXXFLAGS += -I /usr/include
 
 SOURCES += src/harbour-mimer.cpp \
     src/desktopfilesortmodel.cpp \
